@@ -11,6 +11,11 @@
   justify-content: center;
   min-height: 100vh;
   padding: 20px;
+  background-color: #f8f8f8; /* Off-white color */
+}
+
+.descriptionContainer {
+  padding: 50px; /* Add padding as needed */
 }
 
 .mainContent {
