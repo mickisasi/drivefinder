@@ -3,6 +3,7 @@ import styles from './sideBar.module.css';
 import { useState } from 'react';
 
 
+
 export default function Sidebar() {
     const [minPrice, setMinPrice] = useState('');
     const [maxPrice, setMaxPrice] = useState('');
