@@ -2,17 +2,21 @@
 
 .descriptionContainer {
   text-align: left; /* Align text to the left */
-  margin-top: 20px;
-  padding: 0px 150px 0 150px; /* Match the padding with the car cards and filter container */
+  padding: 50px 250px 50px 250px; /* Match the padding with the car cards and filter container */
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ccc; /* Add a 1px solid line at the bottom */
+
 }
 
 .descriptionContainer h3 {
   font-size: 24px;
-  margin-bottom: 10px; /* Add margin between title and description */
+  margin-bottom: 0px; /* Add margin between title and description */
+  margin-top: 0px;
 }
 
 .descriptionContainer p {
   font-size: 16px;
   color: #555;
   max-width: 800px; /* Adjust the value based on your design */
+  margin-bottom: 0px;
 }
