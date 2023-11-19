@@ -49,7 +49,8 @@ export default function Sidebar() {
                 </select>
             </div>
 
-            <h4>Price</h4>
+            <h4 className={styles.heading}>Price</h4>
+
             <div className={styles.filterOption}>
                 <label htmlFor="minPrice">Min Price:</label>
                 <input
