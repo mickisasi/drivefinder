@@ -8,4 +8,5 @@ import (
 
 func ListingRoutes(db *database.Database, routes *gin.Engine) {
 	routes.GET("/listings", controllers.GetListings(db))
+	routes.POST("/listings", controllers.CreateListing(db))
 }

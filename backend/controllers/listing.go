@@ -10,6 +10,7 @@ import (
 	"github.com/mickisasi/drivefinder/database"
 	"github.com/mickisasi/drivefinder/listings"
 	"github.com/mickisasi/drivefinder/models"
+	"github.com/mickisasi/drivefinder/utils"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )
@@ -96,6 +97,12 @@ func NotifyUser(userId string, currentListing *listings.Listing, db *database.Da
 	// we have User
 	if result.DiscordWebhook != "" {
 		fmt.Println("Sending Webhook....")
+		hook := utils.Webhook{
+			URL:      result.DiscordWebhook,
+			Username: "SUre",
+		}
+
+		hook.SendMessage("You made it here!")
 	}
 
 	if result.PhoneNumber != "" {
