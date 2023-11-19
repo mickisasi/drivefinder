@@ -20,11 +20,19 @@
   border-bottom: 1px solid #ddd; /* Add a 1px solid line at the bottom */
 }
 
-.mainContent {
+/* .mainContent {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%; /* Take up the remaining width in the container */
+  width: 100%; 
+} 
+
+*/
+
+.mainContent {
+  display: flex;
+  align-items: flex-start; /* Align items to the start (top) of the container */
+  gap: 20px; /* Adjust the gap on the left-hand side */
 }
 
 .cardList {
