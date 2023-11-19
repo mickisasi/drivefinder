@@ -35,7 +35,10 @@ export function FeaturesCard() {
             <Badge variant="outline">25% off</Badge>
           </Group>
 
-          <Card.Section className={classes.section} mt="md">
+
+        </div>
+        <div>
+        <Card.Section className={classes.section} mt="md">
             <Text fz="sm" c="dimmed" className={classes.label}>
               Basic configuration
             </Text>
@@ -58,7 +61,7 @@ export function FeaturesCard() {
             </div>
 
             <Button radius="xl" style={{ flex: 1 }}>
-              Rent now
+              Notify Me
             </Button>
           </Group>
         </div>
