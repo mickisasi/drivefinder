@@ -20,14 +20,6 @@
   border-bottom: 1px solid #ddd; /* Add a 1px solid line at the bottom */
 }
 
-/* .mainContent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%; 
-} 
-
-*/
 
 .mainContent {
   display: flex;
