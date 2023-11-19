@@ -1,0 +1,25 @@
+/* index.module.css */
+
+
+
+
+/* listing.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure the container takes at least the full height of the viewport */
+  padding: 20px;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px; /* Adjust the gap between cards */
+  max-width: 600px; /* Adjust the maximum width of the card list */
+}
+
+  
