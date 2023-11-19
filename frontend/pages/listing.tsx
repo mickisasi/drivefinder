@@ -67,9 +67,6 @@ export default function Listing() {
         <Sidebar />
 
         <div className={styles.mainContent}>
-          <div>
-            <h3>Car Listings</h3>
-          </div>
 
           <div className={styles.cardList}>
             {[...Array(5)].map((_, index) => (
