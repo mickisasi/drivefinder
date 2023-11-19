@@ -1,14 +1,15 @@
+import React from 'react'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import Navbar from '@/components/Navbar/Navbar'
 const inter = Inter({ subsets: ['latin'] })
+import { HeaderSimple } from '@/components/Header/Header'
 
-export default function Home() {
-  return (
-    <main
-
-    >
-    <Navbar/>
-    </main>
-  )
+  export default function Home() {
+    
+    return (
+      <main
+      >
+      <HeaderSimple/>
+      </main>
+    );
 }
