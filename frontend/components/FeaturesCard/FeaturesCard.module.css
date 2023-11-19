@@ -1,0 +1,45 @@
+/* FeaturesCard.module.css */
+
+.card {
+  background-color: var(--mantine-color-body);
+}
+
+.container {
+  display: flex;
+}
+
+.imageSection {
+  padding: var(--mantine-spacing-md);
+  border-right: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+}
+
+.content {
+  padding: var(--mantine-spacing-md);
+}
+
+.label {
+  margin-bottom: var(--mantine-spacing-xs);
+  line-height: 1;
+  font-weight: 700;
+  font-size: var(--mantine-font-size-xs);
+  letter-spacing: rem(-0.25px);
+  text-transform: uppercase;
+}
+
+.section {
+  border-top: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+  padding-top: var(--mantine-spacing-md);
+}
+
+.icon {
+  margin-right: rem(5px);
+  color: light-dark(var(--mantine-color-gray-5), var(--mantine-color-dark-2));
+}
+
+.priceSection {
+  padding: var(--mantine-spacing-md);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border-left: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+}
