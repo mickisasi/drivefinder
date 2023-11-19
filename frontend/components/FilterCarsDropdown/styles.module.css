@@ -1,0 +1,27 @@
+.root {
+    position: relative;
+}
+
+.input {
+    height: rem(54px);
+    padding-top: rem(18px);
+  }
+  
+  .label {
+    position: absolute;
+    pointer-events: none;
+    font-size: var(--mantine-font-size-xs);
+    padding-left: var(--mantine-spacing-sm);
+    padding-top: calc(var(--mantine-spacing-sm) / 2);
+    z-index: 1;
+  }
+
+  /* styles.module.css */
+
+.card {
+    background-color: #f5f5f5; /* Set your desired background color */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px; /* Add some margin between cards */
+  }
+  
