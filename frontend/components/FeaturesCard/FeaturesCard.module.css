@@ -2,6 +2,7 @@
 
 .card {
   background-color: var(--mantine-color-body);
+  --card-padding: none;
 }
 
 .container {
@@ -9,8 +10,17 @@
 }
 
 .imageSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: var(--mantine-spacing-md);
   border-right: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+}
+
+/* Add the following styles to ensure the image itself is centered */
+.imageSection img {
+  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+  max-height: 100%; /* Ensure the image doesn't exceed the container height */
 }
 
 .content {
@@ -28,6 +38,8 @@
 
 .section {
   border-top: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+  padding-right: var(--mantine-spacing-md);
+  padding-left: var(--mantine-spacing-md);
   padding-top: var(--mantine-spacing-md);
 }
 
@@ -36,10 +48,18 @@
   color: light-dark(var(--mantine-color-gray-5), var(--mantine-color-dark-2));
 }
 
+
+
 .priceSection {
-  padding: var(--mantine-spacing-md);
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--mantine-spacing-md);
   border-left: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
 }
+
+.priceSection .buttonContainer {
+  margin-top: auto; /* Push the button to the bottom */
+}
+
+

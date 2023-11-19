@@ -35,7 +35,10 @@ export function FeaturesCard() {
             <Badge variant="outline">25% off</Badge>
           </Group>
 
-          <Card.Section className={classes.section} mt="md">
+
+        </div>
+        <div className={classes.section}>
+           <div>
             <Text fz="sm" c="dimmed" className={classes.label}>
               Basic configuration
             </Text>
@@ -43,25 +46,26 @@ export function FeaturesCard() {
             <Group gap={8} mb={-8}>
               {features}
             </Group>
-          </Card.Section>
+          </div>
         </div>
 
         <div className={classes.priceSection}>
-          <Group gap={8}>
-            <div>
-              <Text fz="xl" fw={700} style={{ lineHeight: 1 }}>
-                $168.00
-              </Text>
-              <Text fz="sm" c="dimmed" fw={500} style={{ lineHeight: 1 }} mt={3}>
-                per day
-              </Text>
-            </div>
+          <div>
+            <Text fz="xl" fw={700} style={{ lineHeight: 1 }}>
+              $168.00
+            </Text>
+            <Text fz="sm" c="dimmed" fw={500} style={{ lineHeight: 1 }} mt={3}>
+              per day
+            </Text>
+          </div>
 
+          <div className={classes.buttonContainer}>
             <Button radius="xl" style={{ flex: 1 }}>
-              Rent now
+              Notify Me
             </Button>
-          </Group>
+          </div>
         </div>
+
       </div>
     </Card>
   );
